@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace MainHRProgram
 {
-    public partial class MainHRForm : Form
+    public partial class ResumeForm : Form
     {
-        public MainHRForm()
+        public ResumeForm()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void searchButton_Click(object sender, EventArgs e)
         {
-            ResumeForm form = new ResumeForm();
-            form.Show();
-            this.Hide();
+            MessageBox.Show("Ooops... NO DATA FOUND...", "Search result");
         }
     }
 }

@@ -30,6 +30,7 @@
         {
             this.HRMainLabel = new System.Windows.Forms.Label();
             this.VersionLabel = new System.Windows.Forms.Label();
+            this.resumeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // HRMainLabel
@@ -50,11 +51,25 @@
             this.VersionLabel.TabIndex = 1;
             this.VersionLabel.Text = "version 1";
             // 
+            // resumeButton
+            // 
+            this.resumeButton.BackColor = System.Drawing.Color.Green;
+            this.resumeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.resumeButton.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.resumeButton.Location = new System.Drawing.Point(163, 228);
+            this.resumeButton.Name = "resumeButton";
+            this.resumeButton.Size = new System.Drawing.Size(103, 23);
+            this.resumeButton.TabIndex = 2;
+            this.resumeButton.Text = "Search resumes";
+            this.resumeButton.UseVisualStyleBackColor = false;
+            this.resumeButton.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MainHRForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(292, 273);
+            this.Controls.Add(this.resumeButton);
             this.Controls.Add(this.VersionLabel);
             this.Controls.Add(this.HRMainLabel);
             this.Name = "MainHRForm";
@@ -68,6 +83,7 @@
 
         private System.Windows.Forms.Label HRMainLabel;
         private System.Windows.Forms.Label VersionLabel;
+        private System.Windows.Forms.Button resumeButton;
     }
 }
 
