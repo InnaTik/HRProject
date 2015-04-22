@@ -23,5 +23,10 @@ namespace MainHRProgram
             form.Show();
             this.Hide();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
