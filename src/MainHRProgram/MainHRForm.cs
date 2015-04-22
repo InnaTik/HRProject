@@ -16,13 +16,5 @@ namespace MainHRProgram
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MainHRForm myform = new MainHRForm();
-            myform.Hide();
-            SearchVacancies form = new SearchVacancies();
-            form.Show();
-        }
     }
 }
