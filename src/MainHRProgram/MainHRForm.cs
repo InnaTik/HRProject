@@ -19,9 +19,17 @@ namespace MainHRProgram
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MainHRForm myform = new MainHRForm();
+            myform.Hide();
+            SearchVacancies form = new SearchVacancies();
+            form.Show();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
             ResumeForm form = new ResumeForm();
             form.Show();
             this.Hide();
+        }
         }
 
         private void button1_Click_1(object sender, EventArgs e)
