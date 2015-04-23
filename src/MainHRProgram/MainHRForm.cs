@@ -24,5 +24,12 @@ namespace MainHRProgram
             SearchVacancies form = new SearchVacancies();
             form.Show();
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ResumeForm form = new ResumeForm();
+            form.Show();
+            this.Hide();
+        }
+        }
     }
 }

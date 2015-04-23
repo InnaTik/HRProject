@@ -58,6 +58,13 @@
     <Compile Include="SearchVacancies.Designer.cs">
       <DependentUpon>SearchVacancies.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="ResumeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResumeForm.Designer.cs">
+      <DependentUpon>ResumeForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="MainHRForm.resx">
       <DependentUpon>MainHRForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +79,9 @@
     </Compile>
     <EmbeddedResource Include="SearchVacancies.resx">
       <DependentUpon>SearchVacancies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResumeForm.resx">
+      <DependentUpon>ResumeForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
