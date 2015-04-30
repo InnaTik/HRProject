@@ -34,7 +34,7 @@ namespace MainHRProgram
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-             ResumeForm form = new ResumeForm();
+             ResumeForm form = new ResumeForm( );
             form.Show();
             this.Hide();
         }
